@@ -32,7 +32,7 @@
     function connect() {
       if (ws) ws.close();
 
-      const url = "wss://map.dovedale.wiki/ws";
+      const url = "wss://map.dovedale.wiki/api/ws";
       log(`Connecting to ${url}...`);
       document.getElementById('status').textContent = `Connecting to ${url}...`;
 
